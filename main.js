@@ -1,9 +1,12 @@
 let count = 0;
-const incrementButtonHTML = document.getElementById('js-increment-button')
+const incrementButtons = document.getElementsByClassName('js-increment-button');
 
-function incrementCount(){
-    count++
-    incrementButtonHTML.innerHTML = count
+function incrementCount() {
+    count++;
+    for (let button of incrementButtons) {
+        button.innerHTML = count;
+    }
 }
-
-incrementButtonHTML.addEventListener("click", incrementCount)
+for (let button of incrementButtons) {
+    button.addEventListener("click", incrementCount);
+}

@@ -1,0 +1,72 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    }
+
+/* Grunddesign für alle Knöpfe */
+.js-increment-button {
+    width: 120px;
+    height: 50px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    margin: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.15s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+/* Roter Button */
+#button-red {
+    background-color: #ff4d4d;
+}
+
+#button-red:hover {
+    background-color: #e53e3e;
+    transform: scale(1.1);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Grüner Button */
+#button-green {
+    background-color: #4caf50;
+}
+
+#button-green:hover {
+    background-color: #43a047;
+    transform: scale(1.1);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Blauer Button */
+#button-blue {
+    background-color: #2196f3;
+}
+
+#button-blue:hover {
+    background-color: #1976d2;
+    transform: scale(1.1);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Effekt beim Klicken */
+.js-increment-button:active {
+    transform: scale(0.95);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    opacity: 0.9;
+}
+
+
