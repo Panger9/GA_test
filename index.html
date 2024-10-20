@@ -1,33 +1,50 @@
 <html lang="en">
-  <head>
-    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="456d6525-7cd0-4695-94a4-6415e48d7883" type="text/javascript" async></script>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Test for GA</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  
+
+<head>
+
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-5KT7R28Z');</script>
+  <!-- End Google Tag Manager -->
+
+  <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="456d6525-7cd0-4695-94a4-6415e48d7883"
+    type="text/javascript" async></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Test for GA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-X1R3X8KG87"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+  function gtag() { dataLayer.push(arguments); }
   gtag('js', new Date());
 
   gtag('config', 'G-X1R3X8KG87');
 </script>
-  
-  <body>
 
-    <div 
-        class="main-container"
-        >
-      <h2>Das hier ist eine Testwebsite mit einigen Testknöpfen</h2>
-      <button class="js-increment-button" id="button-red">incr</button>
-      <button class="js-increment-button" id="button-green" >incr</button>
-      <button class="js-increment-button" id="button-blue" >incr</button>
-    </div>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5KT7R28Z" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
-    <script src="main.js"></script>
-  </body>
+  <div class="main-container">
+    <h2>Das hier ist eine Testwebsite mit einigen Testknöpfen</h2>
+    <button class="js-increment-button" id="button-red">incr</button>
+    <button class="js-increment-button" id="button-green">incr</button>
+    <button class="js-increment-button" id="button-blue">incr</button>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
 </html>
