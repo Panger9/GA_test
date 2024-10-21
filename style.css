@@ -14,6 +14,11 @@ body{
     gap: 5px;
     }
 
+.navigator{
+    position: fixed;
+    top: 0px;
+}
+
 /* Grunddesign für alle Knöpfe */
 .js-increment-button {
     width: 120px;
@@ -50,6 +55,18 @@ body{
     transform: scale(1.1);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
+
+/* Lila (Purple) Button */
+#button-purple {
+    background-color: #8e44ad;
+}
+
+#button-purple:hover {
+    background-color: #732d91;
+    transform: scale(1.1);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
 
 /* Blauer Button */
 #button-blue {
